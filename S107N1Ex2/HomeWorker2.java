@@ -9,6 +9,7 @@ public class HomeWorker2 extends Worker2 {
     }
 
     @Deprecated
+    @SuppressWarnings("Deprecation")
     public int salary() {
         return super.salary();
     }
